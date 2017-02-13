@@ -1,0 +1,53 @@
+html{
+    height: 100%;
+}
+body{
+    text-align: center;
+    xbackground: #466368;
+    background: radial-gradient(circle farthest-side at 40px 50px, rgb(255, 255, 255), rgb(212, 208, 208));
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+form{
+    max-width: 300px;
+    margin:auto;
+    xbackground-color: rgb(255, 255, 255);
+    color:#000;
+    border-radius: 5px;
+    padding: 0;
+}
+form fieldset{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 0;
+    box-shadow: 0 0 10px #aaaaaa;
+}
+fieldset >*{
+    margin: 10px;
+}
+ input{
+    width: 80%;
+    margin: 10px auto;
+    height: 30px;
+    font-size:1em;
+}
+button{
+    width:50%;
+    margin: 10px auto;
+    background-color: #ffffff;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    height: 30px;
+}
+button:hover{
+    background-color: #dedede;
+}
+.errors{
+    color:#000;
+}
